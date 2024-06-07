@@ -1,0 +1,10 @@
+@github_HostAddress = http://localhost:5038
+
+GET {{github_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{github_HostAddress}}/pizza/
+Accept: application/json
+
+###
